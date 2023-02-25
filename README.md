@@ -42,7 +42,7 @@ Mobile View:
 
 -Solution URL: https://github.com/pluemmoo/pluemmoo-interactive-rating-component-main.git
 
--Live Site URL: pluemmoo-interactive-rating-component-main.vercel.app
+-Live Site URL: [pluemmoo-interactive-rating-component-main.vercel.app](https://pluemmoo-interactive-rating-component-main.vercel.app/)
 
 ## My process
 
