@@ -1,0 +1,125 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228deg, 45%, 44%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: hsl(216deg, 12%, 8%);
+  font-family: "Overpass", sans-serif;
+}
+
+main {
+  min-height: 100vh;
+  margin-inline: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.survey, .thank-you {
+  background-image: radial-gradient(circle at 50% top, hsl(213deg, 20%, 18%), hsl(219deg, 28%, 16%));
+  border-radius: 15px;
+  padding: 1.5rem;
+  max-width: 375px;
+}
+
+.star {
+  padding: 0.8rem;
+  background-color: hsl(211deg, 20%, 23%);
+  border-radius: 50%;
+}
+
+h1 {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  color: white;
+}
+
+p {
+  font-size: 15px;
+  color: hsl(217deg, 12%, 63%);
+  margin-top: 1rem;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+ul .btn {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  border: none;
+  background-color: hsl(211deg, 20%, 23%);
+  color: hsl(217deg, 12%, 63%);
+  margin-top: 0.2rem;
+}
+ul .btn:hover {
+  background-color: hsl(25deg, 97%, 53%);
+  color: white;
+}
+ul .btn:focus {
+  background-color: hsl(216deg, 12%, 54%);
+  color: white;
+}
+
+#submit {
+  width: 100%;
+  border: none;
+  border-radius: 40px;
+  padding-block: 0.9rem;
+  margin: 2rem 0 1rem;
+  background-color: hsl(25deg, 97%, 53%);
+  font-size: 15px;
+  letter-spacing: 0.125rem;
+  color: hsl(0deg, 0%, 100%);
+  text-transform: uppercase;
+}
+#submit:hover {
+  background-color: white;
+  color: hsl(25deg, 97%, 53%);
+}
+
+.thank-you {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.thank-you img {
+  display: inline-block;
+  margin: 1rem auto 0;
+}
+.thank-you .result {
+  font-size: 15px;
+  background-color: hsl(211deg, 20%, 23%);
+  padding: 0.6rem 0.7rem 0.3rem;
+  border-radius: 20px;
+  color: hsl(25deg, 97%, 53%);
+  margin-top: 1.5rem;
+}
+.thank-you h2 {
+  margin-top: 1rem;
+  color: white;
+}
+.thank-you p {
+  font-size: 15px;
+  color: hsl(217deg, 12%, 63%);
+  margin-block: 1rem;
+}
+
+.hidden {
+  display: none;
+}/*# sourceMappingURL=index.css.map */
