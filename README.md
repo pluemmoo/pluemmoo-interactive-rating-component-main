@@ -71,4 +71,3 @@ Next project, I still want to focus on Javascript.
 
 - Website - https://pluemmoo.github.io/
 - Frontend Mentor - [@pluemmoo](https://www.frontendmentor.io/profile/pluemmoo)
--Solution URL: 
